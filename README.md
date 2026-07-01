@@ -1,11 +1,1 @@
-def main():
-    """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
-    try:
-        from django.core.management import execute_from_command_line
-    except ImportError as exc:
-        raise ImportError(
-            "Couldn't import Django. Are you sure it's installed and "
-            "available on your PYTHONPATH environment variable?"
-        ) from exc
-    execute_from_command_line(sys.argv)
+Specializing in Python and the Django web framework. Dedicated to crafting robust, scalable server-side architectures and writing clean, maintainable, Pythonic code. I thrive on translating complex business requirements into efficient database models and seamless API endpoints. Always eager to explore new technologies and optimize system performance.
